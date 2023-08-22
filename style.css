@@ -1,0 +1,79 @@
+body {
+    margin: 0;
+}
+h2, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+nav {
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.toppage {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 30px;
+}
+.info {
+    float: right;
+}
+.bottompage {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.skills ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.skills {
+    padding-right: 30px;
+    padding-bottom: 65px;
+}
+.education {
+    padding-bottom: 50px;
+}
+
+.container1 {
+    padding-right: 50px;
+}
+.title {
+    text-align: center;
+}
+.about {
+    width: 20%;
+    margin: auto;
+    border: 3px solid black;
+}
+.about p{
+    text-align: center;
+    font-size: 40px;
+}
